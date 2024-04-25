@@ -1,8 +1,6 @@
-// import React from "react";
-// import Navbar from "./Navbar";
-import Sidebar from "./components/SideBar";
-import Card from "./components/Card";
-import Heading from "./components/Heading";
+import Sidebar from "../components/SideBar";
+import Card from "../components/Card";
+import Heading from "../components/Heading";
 
 function App() {
   return (

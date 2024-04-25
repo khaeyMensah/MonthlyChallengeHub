@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: #0f1014; */
 }
 
 .my-sidebar {
@@ -17,10 +19,11 @@
   font-size: 24.14px;
   line-height: 46px;
   position: absolute;
-  width: 146px;
+  width: auto;
   height: 47px;
   left: 80px;
   top: 23px;
+  background: #0d0e12;
 }
 
 .my-sidebar .my-logo a img {
@@ -29,6 +32,7 @@
   height: 36.77px;
   left: 31px;
   top: 28px;
+  background: #0d0e12;
 }
 
 #kt_app_sidebar {
@@ -56,6 +60,7 @@
   right: 0;
   top: 0;
   bottom: 0;
+  background: #0d0e12;
 }
 
 #kt_app_sidebar::after {
@@ -71,6 +76,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
+  background: #0d0e12;
   /* color: #9a9cae; */
 }
 
@@ -78,11 +84,13 @@
   list-style: none;
   /* padding: 0; */
   margin: 0;
+  background: #0d0e12;
 }
 
 .my-links a {
   text-decoration: none;
   color: #9a9cae;
+  background: #0d0e12;
 }
 
 .my-links li {
@@ -92,20 +100,19 @@
   color: #ffffff;
 }
 
+.my-links span {
+  background: #0d0e12;
+}
+
 .side-icons {
   color: #008905;
   margin-right: 10px;
+  background: #0d0e12;
 }
 
-.side-icons:hover,
-.side-icons:focus {
-  color: #d6b80f;
-}
-
-/* .side-icons:hover,
 .my-links a:hover {
-  color: #020502;
-} */
+  color: #ffffff;
+}
 
 .heading-container {
   display: flex;

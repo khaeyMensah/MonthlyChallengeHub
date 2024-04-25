@@ -3,8 +3,6 @@ import React from "react";
 function CompetitionTable() {
   return (
     <div className="competition-table">
-      {" "}
-      {/* Add a class for the container div */}
       <table className="my-table">
         <thead>
           <tr>
@@ -28,7 +26,7 @@ function CompetitionTable() {
                 src="./src/assets/cn.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -42,7 +40,7 @@ function CompetitionTable() {
                 src="./src/assets/de.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -56,7 +54,7 @@ function CompetitionTable() {
                 src="./src/assets/gh.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -70,7 +68,7 @@ function CompetitionTable() {
                 src="./src/assets/in.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -80,12 +78,11 @@ function CompetitionTable() {
             <td>6.88</td>
             <td>$100 Cash + $100,000 Challenge Account</td>
             <td>
-              {" "}
               <img
                 src="./src/assets/ke.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -95,12 +92,11 @@ function CompetitionTable() {
             <td>7.55</td>
             <td>$100,000 Challenge Account</td>
             <td>
-              {" "}
               <img
                 src="./src/assets/md.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -110,12 +106,11 @@ function CompetitionTable() {
             <td>6.88</td>
             <td>$10,000 Challenge Account</td>
             <td>
-              {" "}
               <img
                 src="./src/assets/ng.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -125,12 +120,11 @@ function CompetitionTable() {
             <td>7.55</td>
             <td>$10,000 Challenge Account</td>
             <td>
-              {" "}
               <img
                 src="./src/assets/pt.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -140,12 +134,11 @@ function CompetitionTable() {
             <td>6.88</td>
             <td>$10,000 Challenge Account</td>
             <td>
-              {" "}
               <img
                 src="./src/assets/us.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
           <tr>
@@ -155,12 +148,11 @@ function CompetitionTable() {
             <td>7.55</td>
             <td>$10,000 Challenge Account</td>
             <td>
-              {" "}
               <img
                 src="./src/assets/vn.webp"
                 alt="China Flag"
                 className="flag-img"
-              />{" "}
+              />
             </td>
           </tr>
         </tbody>

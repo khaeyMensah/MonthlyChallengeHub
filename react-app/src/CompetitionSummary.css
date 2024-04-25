@@ -1,5 +1,9 @@
 .competition-summary {
-  margin: 20px;
+  position: relative;
+  margin-top: 40px;
+  margin-right: 20px;
+  overflow-x: auto;
+  width: 90%;
 }
 
 .summary-table {
@@ -7,43 +11,38 @@
   border-collapse: collapse;
 }
 
-.summary-label {
-  display: flex; /* Use flexbox to align items horizontally */
-  align-items: center; /* Align items vertically in the center */
+.summary-table td {
+  height: 50px;
+  /* border: 1px solid rgb(255, 247, 247); */
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.06px;
+  text-align: left;
 }
 
-.summary-label .icon {
-  margin-right: 8px; /* Add some spacing between the icon and the text */
+.summary-table .trophy-icon {
+  position: absolute;
+  top: 70px;
+  font-size: 25px;
+  color: white;
+  /* transform: translate(-50%, -50%); */
 }
 
-.table-row3 {
-  display: flex; /* Use flexbox to align items horizontally */
-  align-items: center; /* Align items vertically in the center */
+.competition {
+  position: absolute;
+  top: 145px;
+  left: 130px;
+  font-size: 25px;
+  color: #ffffff;
+  /* transform: translate(0%, 0%); */
 }
 
 .month-header {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-
-.summary-label {
-  font-weight: bold;
-  color: #666;
-}
-
-.month-header {
-  /* position: absolute; */
-  /* width: 290px;
-  height: 175px;
-  left: 419px;
-  top: 194px; */
-
-  font-family: "Inter";
+  /* font-family: "Inter"; */
   font-style: normal;
   font-weight: 500;
   font-size: 145px;
-  line-height: 175px;
 
   background: linear-gradient(
     112.23deg,
@@ -56,14 +55,18 @@
   text-fill-color: transparent;
 }
 
-.trophy-icon {
-  font-size: 14px; /* Adjust the size of the trophy icon */
-  margin-right: 5px; /* Adjust the margin between the icon and the text */
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+  position: absolute;
+  margin-right: 5px;
+  color: #4ecb71;
 }
 
 td span,
 .table-row3 {
-  font-family: Poppins;
+  /* font-family: Poppins; */
   font-size: 18px;
   font-weight: 400;
   line-height: 21.06px;
@@ -71,18 +74,58 @@ td span,
   color: #ffffff;
 }
 
-.competition-table {
-  margin-top: 20px;
+.summary-label ul li,
+.table-row3 ul li {
+  list-style-type: none;
+}
+
+.summary-label li {
+  list-style-type: none;
+}
+
+.searchbar {
+  margin-top: 40px;
+}
+
+.search {
+  background: #0f1014;
+  border-radius: 15px;
+  border: 1px solid #bfbfbf80;
+  width: 50%;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  color: #bfbfbf;
+}
+
+.standings {
+  color: #bfbfbf;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.63px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .competition-table {
   margin-top: 20px;
-  background-color: #11781533;
   font-family: Inter;
   font-size: 15px;
   font-weight: 400;
   line-height: 18.15px;
   color: #ffffff;
+  font-family: Inter, sans-serif;
+
+  text-align: left;
+}
+
+.competition-table {
+  overflow-x: auto;
+  width: 90%;
+}
+
+.competition-table tr {
+  height: 80px;
 }
 
 .competition-table th,
@@ -92,6 +135,7 @@ td span,
 
 .competition-table th {
   text-align: left;
+  border-bottom: 1px solid #ffffff1a;
 }
 
 .competition-table tr:nth-child(odd) {
@@ -99,7 +143,11 @@ td span,
 }
 
 .competition-table tr:nth-child(even) {
-  background: #11781533;
+  background-color: #11781533;
+}
+
+.competition-table tr:hover {
+  background-color: #11781421;
 }
 
 .my-table {
@@ -107,26 +155,58 @@ td span,
   border-collapse: collapse;
 }
 
-.flag-img {
-  width: 30px; /* Adjust the size of the flag image */
-  height: auto; /* Maintain aspect ratio */
+.competition-table td:first-child {
+  border-radius: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
+}
+
+.competition-table td:last-child {
+  border-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
 }
 
 .flag-img {
-  width: 30px; /* Adjust the size of the flag image */
-  height: 30px; /* Ensure height matches width for a circular shape */
-  border-radius: 50%; /* Make the flags round */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
-.trophy-icon {
-  font-size: 14px;
-  margin-right: 5px;
+.pagination {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: inline-block;
 }
 
-.table-row3 {
-  width: 70%; /* Adjust the width of the cells containing the items */
+.pagination a {
+  color: #ffffff;
+  padding: 8px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #009c24;
+  border-radius: 10px;
+  margin: 2px;
 }
 
-.table-item {
-  padding-left: 10px; /* Adjust the left padding of the cells */
+.pagination a.active {
+  background-color: #009c24;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #009c24;
+}
+
+.pagination a:first-child,
+.pagination a:nth-child(7),
+.pagination a:last-child {
+  border: none;
+}
+
+.pagination a:nth-child(7) {
+  color: #009c24;
+  font-size: 20px;
 }
