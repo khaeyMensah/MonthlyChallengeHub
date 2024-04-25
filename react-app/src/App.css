@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  /* background: #0f1014; */
 }
 
 .my-sidebar {
@@ -13,7 +12,7 @@
 .my-sidebar .my-logo .Emma {
   text-decoration: none;
   color: #008905;
-  font-family: "Poppins";
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 24.14px;
@@ -114,20 +113,27 @@
   color: #ffffff;
 }
 
-.heading-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+.my-heading-container {
+  padding-left: 220px;
+  padding-bottom: 5px;
   background-color: #0f1014;
-  padding: 10px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.31px;
+  text-align: left;
+  margin: 0;
 }
 
-.trophy-icon {
+.heading-trophy-icon {
+  padding-top: 80px;
+  padding-left: 20px;
   margin-right: 10px;
+  color: #00ff38c7;
 }
 
 .heading-text {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
 }
@@ -138,6 +144,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background: #0f1014;
+  padding-bottom: 40px;
 }
 
 .card {

@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <Sidebar />
 
-      {/* <Heading /> */}
+      <div>
+        <Heading />
+      </div>
 
       <div className="main-content">
         <Card
