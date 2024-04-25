@@ -1,8 +1,8 @@
 // import React from "react";
-import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faChartBar,
   faClipboardList,
+  faDashboard,
   faDownload,
   faFileInvoiceDollar,
   faFileSignature,
@@ -10,7 +10,6 @@ import {
   faJournalWhills,
   faTrophy,
   faUserCog,
-  fas,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -34,7 +33,7 @@ const Sidebar = () => {
             <ul>
               <li>
                 <a href="#">
-                  <FontAwesomeIcon icon={faChartBar} className="side-icons" />
+                  <FontAwesomeIcon icon={faDashboard} className="side-icons" />
                   <span>Dashboard</span>
                 </a>
               </li>
