@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Sidebar />
 
-      <Heading />
+      {/* <Heading /> */}
 
       <div className="main-content">
         <Card
