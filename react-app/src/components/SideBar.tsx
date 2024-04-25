@@ -16,15 +16,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Sidebar = () => {
   return (
-    <aside id="kt_app_sidebar" className="my-sidebar">
+    <aside id="sidebar" className="my-sidebar">
       <div className="my-logo">
         <a href="/">
           <img src="./src/assets/image.png" alt="logo" />
           <span className="Emma">Emmanuel</span>
         </a>
+        <div className="line-2"></div>
       </div>
-      <div className="app-sidebar-menu">
-        <div id="kt-app-sidebar-menu-scroll">
+      <div className="sidebar-menu">
+        <div id="sidebar-menu-scroll">
+          <div className="line-3"></div>
+
+          <div className="line"></div>
+
           <div className="my-links">
             <ul>
               <li>

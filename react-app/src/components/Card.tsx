@@ -23,6 +23,9 @@ const Card = ({ month, prize, contestants }) => {
           </ul>
         </li>
       </ol>
+      <div className="status">
+        <span>Ended</span>
+      </div>
     </div>
   );
 };

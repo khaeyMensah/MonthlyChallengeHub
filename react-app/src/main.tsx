@@ -11,6 +11,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <JanuaryPage />
   </React.StrictMode>
 );

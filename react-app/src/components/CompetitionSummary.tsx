@@ -25,62 +25,32 @@ function CompetitionSummary() {
           <tr>
             <td className="summary-label ">
               <FontAwesomeIcon icon={faTrophy} className="icon-1" />
-              <ul>
-                <li>
-                  <span>Winner:</span>
-                </li>
-              </ul>
+              <span>Winner:</span>
             </td>
-            <td className="table-row3 table-item">
-              <ul>
-                <li>Obeng Sika</li>
-              </ul>
-            </td>
+            <td className="table-row3 table-item">Obeng Sika</td>
           </tr>
           <tr>
             <td className="summary-label">
               <FontAwesomeIcon icon={faCalendarAlt} className="icon-2" />
-              <ul>
-                <li>
-                  <span>Date:</span>
-                </li>
-              </ul>
+              <span>Date:</span>
             </td>
-            <td className="table-row3 table-item">
-              <ul>
-                <li>January, 2nd 22024</li>
-              </ul>
-            </td>
+            <td className="table-row3 table-item">January, 2nd 22024</td>
           </tr>
           <tr>
             <td className="summary-label">
               <FontAwesomeIcon icon={faAward} className="icon-3" />
-              <ul>
-                <li>
-                  <span>Reward:</span>
-                </li>
-              </ul>
+              <span>Reward:</span>
             </td>
             <td className="table-row3 table-item">
-              <ul>
-                <li>$1,000 in cash prize + Challenge accounts</li>
-              </ul>
+              $1,000 in cash prize + Challenge accounts
             </td>
           </tr>
           <tr>
             <td className="slmmary-label">
               <FontAwesomeIcon icon={faUsers} className="icon-4" />
-              <ul>
-                <li>
-                  <span>Number of Contestants:</span>
-                </li>
-              </ul>
+              <span>Number of Contestants:</span>
             </td>
-            <td className="table-row3 table-item">
-              <ul>
-                <li>20,546</li>
-              </ul>
-            </td>
+            <td className="table-row3 table-item">20,546</td>
           </tr>
         </tbody>
       </table>

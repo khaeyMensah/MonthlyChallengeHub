@@ -34,7 +34,7 @@
   background: #0d0e12;
 }
 
-#kt_app_sidebar {
+#sidebar {
   position: fixed;
   width: 215px;
   height: 100%;
@@ -44,7 +44,7 @@
   background: #0d0e12;
 }
 
-.app-sidebar-menu {
+.sidebar-menu {
   position: absolute;
   height: calc(100% - 75px);
   left: 0;
@@ -52,9 +52,10 @@
   top: 75px;
 }
 
-#kt-app-sidebar-menu-scroll {
+#sidebar-menu-scroll {
   position: absolute;
   /* height: calc(100% - 100px); */
+  padding-top: 30px;
   left: 0;
   right: 0;
   top: 0;
@@ -62,7 +63,25 @@
   background: #0d0e12;
 }
 
-#kt_app_sidebar::after {
+.my-logo .line-2 {
+  border-bottom: 1.5px solid #ffffff1a;
+  margin-top: 90px;
+}
+
+.sidebar-menu .line-3 {
+  position: relative;
+  top: -20px;
+  border-bottom: 1.5px dashed #ffffff1a;
+  margin-top: -1px;
+}
+
+.my-sidebar .line {
+  border-bottom: 1.5px solid #ffffff1a;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+#sidebar::after {
   content: "";
   display: block;
   height: 20px;
@@ -81,7 +100,6 @@
 
 .my-links ul {
   list-style: none;
-  /* padding: 0; */
   margin: 0;
   background: #0d0e12;
 }
@@ -107,6 +125,8 @@
   color: #008905;
   margin-right: 10px;
   background: #0d0e12;
+  width: 15px;
+  height: 15px;
 }
 
 .my-links a:hover {
@@ -125,8 +145,13 @@
   margin: 0;
 }
 
+.my-heading-container .line {
+  padding-top: 90px;
+  border-bottom: 1.5px solid #ffffff1a;
+}
+
 .heading-trophy-icon {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-left: 20px;
   margin-right: 10px;
   color: #00ff38c7;
@@ -213,4 +238,17 @@
 
 .card .prize {
   margin-bottom: 1rem;
+}
+
+.status {
+  border: 1px solid #bfbfbf;
+  color: #bfbfbf;
+  font-size: x-small;
+  align-content: center;
+  padding-left: 3px;
+  position: absolute;
+  left: 83.5%;
+  right: 5.67%;
+  top: 15.22%;
+  bottom: 77.17%;
 }
