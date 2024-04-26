@@ -1,7 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrophy, faUsers } from "@fortawesome/free-solid-svg-icons";
 
-const Card = ({ month, prize, contestants }) => {
+type CardProps = {
+  month: string;
+  prize: string;
+  contestants: number;
+};
+
+const Card = ({ month, prize, prizeMarkup, contestants }: CardProps) => {
   return (
     <div className="card">
       <ol>

@@ -1,4 +1,3 @@
-// import React from "react";
 import Sidebar from "../components/SideBar";
 import Table from "../components/CompetitionTable";
 import SearchBar from "../components/SearchBar";

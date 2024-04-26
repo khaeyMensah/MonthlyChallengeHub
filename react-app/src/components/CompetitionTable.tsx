@@ -1,5 +1,3 @@
-import React from "react";
-
 function CompetitionTable() {
   return (
     <div className="competition-table">
@@ -38,7 +36,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/de.webp"
-                alt="China Flag"
+                alt="Germany Flag"
                 className="flag-img"
               />
             </td>
@@ -52,7 +50,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/gh.webp"
-                alt="China Flag"
+                alt="Ghana Flag"
                 className="flag-img"
               />
             </td>
@@ -66,7 +64,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/in.webp"
-                alt="China Flag"
+                alt="India Flag"
                 className="flag-img"
               />
             </td>
@@ -80,7 +78,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/ke.webp"
-                alt="China Flag"
+                alt="Kenya Flag"
                 className="flag-img"
               />
             </td>
@@ -94,7 +92,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/md.webp"
-                alt="China Flag"
+                alt="Moldova Flag"
                 className="flag-img"
               />
             </td>
@@ -108,7 +106,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/ng.webp"
-                alt="China Flag"
+                alt="Nigeria Flag"
                 className="flag-img"
               />
             </td>
@@ -122,7 +120,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/pt.webp"
-                alt="China Flag"
+                alt="Portugal Flag"
                 className="flag-img"
               />
             </td>
@@ -136,7 +134,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/us.webp"
-                alt="China Flag"
+                alt="USA Flag"
                 className="flag-img"
               />
             </td>
@@ -150,7 +148,7 @@ function CompetitionTable() {
             <td>
               <img
                 src="./src/assets/vn.webp"
-                alt="China Flag"
+                alt="Vietnam Flag"
                 className="flag-img"
               />
             </td>

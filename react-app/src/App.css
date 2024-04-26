@@ -176,8 +176,8 @@
   margin: 0.5rem;
   border: 1px solid #0f1014;
   padding: 1rem;
-  /* margin: 1rem; */
   border-radius: 14px;
+  max-width: 350px;
   background: linear-gradient(
     100.59deg,
     rgba(230, 237, 251, 0.61) -3.94%,
@@ -191,6 +191,7 @@
 
 .card li {
   list-style-type: none;
+  padding-right: 20px;
 }
 
 .card li .competition-month {
@@ -226,6 +227,10 @@
   font-size: 15px;
   line-height: 18px;
 }
+
+/* .prize {
+  white-space: pre-wrap;
+} */
 
 .icon {
   margin-top: 1rem;

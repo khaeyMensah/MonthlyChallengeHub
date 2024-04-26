@@ -5,9 +5,9 @@ import CompetitionSummary from "../components/CompetitionSummary";
 import Pagination from "../components/Pagination";
 import NavHeading from "../components/NavHeading";
 
-function OctoberPage() {
+function MarchPage() {
   return (
-    <div className="OctoberPage">
+    <div className="MarchPage">
       <Sidebar />
 
       <div>
@@ -31,4 +31,4 @@ function OctoberPage() {
   );
 }
 
-export default OctoberPage;
+export default MarchPage;
