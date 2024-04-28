@@ -12,7 +12,7 @@ function HomePage() {
         <Heading />
       </div>
 
-      <div className="main-content">
+      <div className="home-content">
         <Link
           to="/JanuaryPage"
           className="link-offset-2 link-underline link-underline-opacity-0"

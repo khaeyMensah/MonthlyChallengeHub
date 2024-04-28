@@ -1,0 +1,236 @@
+@media only screen and (max-width: 768px) {
+    .nav-home {
+    padding-bottom: 40px;
+    background-color: #0f1014;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.31px;
+    text-align: left;
+  }
+
+  .nav-icon {
+    padding-top: 20px;
+    margin-right: 10px;
+    padding-left: 20px;
+    color: #bfbfbf;
+    font-size: 18px;
+  }
+
+  .nav-text {
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #bfbfbf;
+  }
+
+  .details-content {
+    background: #0f1014;
+    padding-bottom: 20px;
+  }
+
+  .competition-summary {
+    /* font-size: smaller; */
+    position: relative;
+    overflow: auto;
+    width: 95%;
+    margin: auto;
+  }
+
+  .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .summary-table td {
+    height: 50px;
+    white-space: nowrap;
+
+  }
+
+  .summary-table .trophy-icon {
+    position: absolute;
+    top: 70px;
+    font-size: 25px;
+    color: white;
+  }
+
+  .competition-text {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .month-header {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120px;
+    background: linear-gradient(
+      112.23deg,
+      #ffffff 33.41%,
+      rgba(254, 254, 254, 0.31) 99.03%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+  }
+
+  .icon-1,
+  .icon-2,
+  .icon-3,
+  .icon-4 {
+    margin-right: 10px;
+    color: #4ecb71;
+    width: 16px;
+    height: 16px;
+  }
+
+  td span,
+  .table-row3 {
+    color: #ffffff;/
+  }
+
+  .search-bar {
+    width: 95%;
+    margin: auto;
+    padding: 40px 0 40px 0;
+  }
+
+  .search {
+    background: #0f1014;
+    border-radius: 15px;
+    border: 1px solid #bfbfbf80;
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 12px 10px;
+    color: #bfbfbf;
+  }
+
+  .standings {
+    margin-left: 20px;
+    color: #bfbfbf;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.63px;
+  }
+
+  .competition-table {
+    overflow-x: auto;
+    width: 95%;
+    margin: auto;
+  }
+
+  .my-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    color: #ffffff;
+    font-family: Inter, sans-serif;
+  }
+
+  .my-table tr {
+    height: 60px;
+  }
+
+  .my-table th,
+  .my-table td {
+    padding: 8px;
+    white-space: nowrap;
+  }
+
+  .my-table th {
+    text-align: left;
+    border-bottom: 1px solid #ffffff1a;
+  }
+
+  .my-table tr:nth-child(odd) {
+    background-color: #0f1014;
+  }
+
+  .my-table tr:nth-child(even) {
+    background-color: #11781533;
+  }
+
+  .my-table tbody tr:hover {
+    background-color: #11781421;
+  }
+
+  .my-table td:first-child {
+    border-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+  }
+
+  .my-table td:last-child {
+    border-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+
+  .flag-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .pagination {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: right;
+    overflow: auto;
+    font-size: 15px;
+  }
+
+  .pagination-link {
+    display: inline-block;
+    padding: 10px 0 10px 0;
+  }
+
+  .pagination a {
+    color: #ffffff;
+    padding: 4px 9px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #009c24;
+    border-radius: 10px;
+    margin: 2px;
+  }
+
+  .pagination a.active {
+    background-color: #009c24;
+    color: white;
+  }
+
+  .pagination a:hover:not(.active) {
+    background-color: #009c24;
+  }
+
+  .pagination a:first-child,
+  .pagination a:nth-child(7),
+  .pagination a:last-child {
+    border: none;
+  }
+
+  .pagination a:nth-child(7) {
+    color: #009c24;
+    font-size: 20px;
+  }
+
+  .pagination a:nth-child(4),
+  .pagination a:nth-child(5),
+  .pagination a:nth-child(6) {
+    display: none;
+  }
+}

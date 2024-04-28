@@ -1,7 +1,9 @@
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import "./App.css";
-import "./CompetitionSummary.css";
+import "./index.css";
+import "./details.css";
+import "./index-responsive.css";
+import "./details-responsive.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";

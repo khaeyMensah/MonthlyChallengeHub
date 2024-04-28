@@ -3,12 +3,13 @@ import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 
 function Heading() {
   return (
-    <div className="my-heading-container">
-      <div className="line"></div>
-
-      <FontAwesomeIcon icon={faTrophy} className="heading-trophy-icon" />
-      <span className="heading-text">Competition</span>
-    </div>
+    <>
+      <div className="heading-line"></div>
+      <div className="heading-container">
+        <FontAwesomeIcon icon={faTrophy} className="heading-trophy-icon" />
+        <span className="heading-text">Competition</span>
+      </div>
+    </>
   );
 }
 

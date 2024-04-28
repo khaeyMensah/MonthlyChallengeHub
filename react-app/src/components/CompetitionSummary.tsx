@@ -17,7 +17,7 @@ function CompetitionSummary() {
                 <FontAwesomeIcon icon={faTrophy} className="trophy-icon" />
                 JAN
               </h1>
-              <p className="competition">Competition</p>
+              <p className="competition-text">Competition</p>
             </td>
           </tr>
           <tr>
@@ -44,7 +44,7 @@ function CompetitionSummary() {
             </td>
           </tr>
           <tr>
-            <td className="slmmary-label">
+            <td className="summary-label">
               <FontAwesomeIcon icon={faUsers} className="icon-4" />
               <span>Number of Contestants:</span>
             </td>

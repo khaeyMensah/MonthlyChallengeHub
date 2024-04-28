@@ -14,18 +14,14 @@ function JanuaryPage() {
         <NavHeading />
       </div>
 
-      <div className="main-content">
+      <div className="details-content">
         <CompetitionSummary />
 
-        <div>
-          <SearchBar />
-        </div>
+        <SearchBar />
 
         <Table />
 
-        <div>
-          <Pagination />
-        </div>
+        <Pagination />
       </div>
     </div>
   );
