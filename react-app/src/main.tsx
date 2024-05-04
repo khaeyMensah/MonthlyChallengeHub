@@ -1,9 +1,10 @@
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import "./index.css";
-import "./details.css";
-import "./index-responsive.css";
-import "./details-responsive.css";
+import "./css/index.css";
+import "./css/details.css";
+import "./css/indexMobile.css";
+import "./css/detailsMobile.css";
+import "./css/pages.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";

@@ -14,8 +14,8 @@ function OctoberPage() {
         <NavHeading />
       </div>
 
-      <div className="main-content">
-        <CompetitionSummary />
+      <div className="details-content">
+        <CompetitionSummary monthText="OCT" />
 
         <div>
           <SearchBar />

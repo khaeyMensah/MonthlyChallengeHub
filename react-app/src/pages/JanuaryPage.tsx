@@ -15,7 +15,7 @@ function JanuaryPage() {
       </div>
 
       <div className="details-content">
-        <CompetitionSummary />
+        <CompetitionSummary monthText="JAN" />
 
         <SearchBar />
 

@@ -12,7 +12,7 @@
     text-align: left;
     /* margin: 0; */
   }
-  
+
   .nav-icon {
     padding-top: 40px;
     margin-right: 10px;
@@ -21,7 +21,7 @@
     color: #bfbfbf;
     font-size: 18px;
   }
-  
+
   .nav-text {
     /* font-family: Inter; */
     font-size: 18px;
@@ -30,13 +30,13 @@
     text-align: left;
     color: #bfbfbf;
   }
-  
+
   .details-content {
     padding-left: 220px;
     background: #0f1014;
     padding-bottom: 40px;
   }
-  
+
   .competition-summary {
     position: relative;
     overflow-x: auto;
@@ -44,44 +44,31 @@
     margin: auto;
     border: 1px solid wheat;
   }
-  
+
   .summary-table {
     width: 100%;
     border-collapse: collapse;
+    white-space: nowrap;
   }
-  
+
   .summary-table td {
-    height: 50px;
-    /* border: 1px solid rgb(255, 247, 247); */
     /* font-family: Poppins; */
     font-size: 18px;
     font-weight: 400;
     line-height: 21.06px;
     text-align: left;
-    white-space: nowrap;
-  }
-  
-  .summary-table .trophy-icon {
-    position: absolute;
-    top: 70px;
-    font-size: 25px;
-    color: white;
-  }
-  
-  .competition-text {
-    position: absolute;
-    top: 145px;
-    left: 130px;
-    font-size: 25px;
     color: #ffffff;
+    vertical-align: bottom;
   }
-  
+
   .month-header {
-    /* font-family: "Inter"; */
+    /* font-family: Inter; */
+    text-align: left;
     font-style: normal;
     font-weight: 500;
     font-size: 145px;
-  
+    line-height: 175.48px;
+
     background: linear-gradient(
       112.23deg,
       #ffffff 33.41%,
@@ -92,33 +79,23 @@
     background-clip: text;
     /* text-fill-color: transparent; */
   }
-  
-  .icon-1,
-  .icon-2,
-  .icon-3,
-  .icon-4 {
+
+  .summary-table .icon-1,
+  .summary-table .icon-2,
+  .summary-table .icon-3,
+  .summary-table .icon-4 {
     margin-right: 10px;
     color: #4ecb71;
     width: 20px;
     height: 20px;
   }
-  
-  td span,
-  .table-row3 {
-    /* font-family: Poppins; */
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.06px;
-    text-align: left;
-    color: #ffffff;/
-  }
-  
+
   .search-bar {
     width: 90%;
     margin: auto;
     padding: 40px 0 40px 0;
   }
-  
+
   .search {
     background: #0f1014;
     border-radius: 15px;
@@ -126,10 +103,12 @@
     width: 25%;
     box-sizing: border-box;
     font-size: 16px;
-    padding: 12px 20px 12px 20px;
+    text-align: center;
+    padding: 12px 20px;
     color: #bfbfbf;
+    height: 56px;
   }
-  
+
   .standings {
     margin-left: 20px;
     color: #bfbfbf;
@@ -137,14 +116,13 @@
     font-weight: 400;
     line-height: 26.63px;
   }
-  
+
   .competition-table {
     overflow-x: auto;
     width: 90%;
     margin: auto;
-  
   }
-  
+
   .my-table {
     width: 100%;
     border-collapse: collapse;
@@ -154,70 +132,67 @@
     color: #ffffff;
     font-family: Inter, sans-serif;
   }
-  
+
   .my-table tr {
     height: 70px;
   }
-  
+
   .my-table th,
   .my-table td {
     padding: 8px;
     white-space: nowrap;
-
   }
-  
+
   .my-table th {
     text-align: left;
     border-bottom: 1px solid #ffffff1a;
   }
-  
+
   .my-table tr:nth-child(odd) {
     background-color: #0f1014;
   }
-  
+
   .my-table tr:nth-child(even) {
     background-color: #11781533;
   }
-  
+
   .my-table tbody tr:hover {
     background-color: #11781421;
   }
-  
-  
-  
+
   .my-table td:first-child {
     border-radius: 0;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     overflow: hidden;
   }
-  
+
   .my-table td:last-child {
     border-radius: 0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     overflow: hidden;
   }
-  
+
   .flag-img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
   }
-  
+
   .pagination {
-  width: 90%;
-  margin: auto;
-  margin-top: 40px;
-  justify-content: right;
-  overflow: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: right;
+    overflow: auto;
   }
-  
+
   .pagination-link {
     display: inline-block;
     padding: 10px 0 10px 0;
   }
-  
+
   .pagination a {
     color: #ffffff;
     padding: 8px 15px;
@@ -227,25 +202,24 @@
     border-radius: 10px;
     margin: 2px;
   }
-  
+
   .pagination a.active {
     background-color: #009c24;
     color: white;
   }
-  
+
   .pagination a:hover:not(.active) {
     background-color: #009c24;
   }
-  
+
   .pagination a:first-child,
   .pagination a:nth-child(7),
   .pagination a:last-child {
     border: none;
   }
-  
+
   .pagination a:nth-child(7) {
     color: #009c24;
     font-size: 20px;
   }
-  
 }
