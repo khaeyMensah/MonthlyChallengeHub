@@ -6,10 +6,18 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 
+/**
+ * Props for the CompetitionSummary component.
+ */
 type MonthProps = {
   monthText: string;
 };
 
+/**
+ * Component displaying a summary of the competition for a specific month.
+ * @param {MonthProps} props - The props containing the month text.
+ * @returns {JSX.Element} CompetitionSummary component.
+ */
 const CompetitionSummary = ({ monthText }: MonthProps) => {
   const competitionClassName = `${monthText}-comp-text`;
   const trophyIconClassName = `${monthText}-trophyIcon`;

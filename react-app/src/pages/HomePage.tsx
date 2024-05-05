@@ -3,6 +3,11 @@ import Sidebar from "../components/SideBar";
 import Card from "../components/Card";
 import Heading from "../components/Heading";
 
+/**
+ * The HomePage component renders the main content of the application's home page.
+ * It includes a sidebar, a heading, and a list of links to individual month pages.
+ * Each link leads to a page displaying details and statistics for a specific month.
+ */
 function HomePage() {
   return (
     <div className="HomePage">

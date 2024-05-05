@@ -1,3 +1,7 @@
+/**
+ * Component displaying a competition table with participant details.
+ * @returns {JSX.Element} CompetitionTable component.
+ */
 function CompetitionTable() {
   return (
     <div className="competition-table">

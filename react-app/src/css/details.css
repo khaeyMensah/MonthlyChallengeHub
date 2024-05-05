@@ -1,8 +1,12 @@
+/*This CSS block targets screens with a minimum width of 768px.
+It contains styles specific to larger screens, typically tablets and desktops.
+*/
 @media only screen and (min-width: 768px) {
+  /*
+  Styles for the navigation header on larger screens.
+  */
   .nav-home {
     padding-left: 220px;
-    /* width: 90%; */
-    /* margin: auto; */
     padding-bottom: 40px;
     background-color: #0f1014;
     font-family: Inter;
@@ -10,9 +14,11 @@
     font-weight: 500;
     line-height: 36.31px;
     text-align: left;
-    /* margin: 0; */
   }
 
+  /*
+  Styles for the icon within the navigation header on larger screens.
+  */
   .nav-icon {
     padding-top: 40px;
     margin-right: 10px;
@@ -22,6 +28,9 @@
     font-size: 18px;
   }
 
+  /*
+  Styles for text element within the navigation header on larger screens.
+  */
   .nav-text {
     /* font-family: Inter; */
     font-size: 18px;
@@ -31,20 +40,27 @@
     color: #bfbfbf;
   }
 
+  /*
+  Styles for the content area of the details section on larger screens.
+  */
   .details-content {
     padding-left: 220px;
     background: #0f1014;
     padding-bottom: 40px;
   }
 
+  /*
+  Styles for the competition summary section on larger screens.
+  */
   .competition-summary {
     position: relative;
     overflow-x: auto;
     width: 90%;
+    height: 220px;
     margin: auto;
-    border: 1px solid wheat;
   }
 
+  /* Additional styles for the summary table and its contents */
   .summary-table {
     width: 100%;
     border-collapse: collapse;
@@ -58,6 +74,7 @@
     line-height: 21.06px;
     text-align: left;
     color: #ffffff;
+
     vertical-align: bottom;
   }
 
@@ -90,12 +107,16 @@
     height: 20px;
   }
 
+  /*
+  Styles for the search bar section on larger screens.
+  */
   .search-bar {
     width: 90%;
     margin: auto;
-    padding: 40px 0 40px 0;
+    padding: 20px 0 40px 0;
   }
 
+  /* Additional styles for the search input */
   .search {
     background: #0f1014;
     border-radius: 15px;
@@ -109,6 +130,9 @@
     height: 56px;
   }
 
+  /*
+  Styles for the 'competition standings' text.
+  */
   .standings {
     margin-left: 20px;
     color: #bfbfbf;
@@ -117,6 +141,7 @@
     line-height: 26.63px;
   }
 
+  /* Additional styles for the competition table and its contents */
   .competition-table {
     overflow-x: auto;
     width: 90%;
@@ -180,6 +205,7 @@
     border-radius: 50%;
   }
 
+  /* Additional styles for the pagination section */
   .pagination {
     width: 90%;
     margin: auto;

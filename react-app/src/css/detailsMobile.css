@@ -1,5 +1,12 @@
+/*
+This CSS block targets screens with a maximum width of 768px.
+It contains styles specific to smaller screens, typically mobile devices.
+*/
 @media only screen and (max-width: 768px) {
-    .nav-home {
+  /*
+  Styles for the navigation header on smaller screens.
+  */
+  .nav-home {
     padding-bottom: 40px;
     background-color: #0f1014;
     font-family: Inter;
@@ -9,6 +16,9 @@
     text-align: left;
   }
 
+  /*
+  Styles for the icon within the navigation header.
+  */
   .nav-icon {
     padding-top: 20px;
     margin-right: 10px;
@@ -17,6 +27,9 @@
     font-size: 18px;
   }
 
+  /*
+  Styles for text element within the navigation header.
+  */
   .nav-text {
     /* font-family: Inter; */
     font-size: 18px;
@@ -26,50 +39,63 @@
     color: #bfbfbf;
   }
 
+  /*
+  Styles for the content area of the details section.
+  */
   .details-content {
     background: #0f1014;
     padding-bottom: 20px;
   }
 
+  /*
+  Styles for the competition summary section.
+  */
   .competition-summary {
-    /* font-size: smaller; */
     position: relative;
-    overflow: auto;
+    overflow-x: auto;
     width: 95%;
+    height: 250px;
     margin: auto;
+  }
+
+  /*
+  Styles for customizing the scrollbar within the competition summary section.
+  */
+  .competition-summary::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .competition-summary::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+
+  .competition-summary::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
   }
 
   .summary-table {
     width: 100%;
     border-collapse: collapse;
-  }
-
-  .summary-table td {
-    height: 50px;
     white-space: nowrap;
-
   }
 
-  .summary-table .trophy-icon {
-    position: absolute;
-    top: 70px;
-    font-size: 25px;
-    color: white;
-  }
-
-  .competition-text {
-    position: absolute;
-    top: 130px;
-    left: 110px;
-    font-size: 20px;
+  /* Additional styles for the summary table and its contents */
+  .summary-table td {
+    font-size: 18px;
+    height: 0px;
     color: #ffffff;
+    vertical-align: bottom;
+    padding-right: 30px;
   }
 
   .month-header {
     font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 120px;
+    font-size: 145px;
+    line-height: 175.48px;
+
     background: linear-gradient(
       112.23deg,
       #ffffff 33.41%,
@@ -81,27 +107,26 @@
     /* text-fill-color: transparent; */
   }
 
-  .icon-1,
-  .icon-2,
-  .icon-3,
-  .icon-4 {
+  .summary-table .icon-1,
+  .summary-table .icon-2,
+  .summary-table .icon-3,
+  .summary-table .icon-4 {
     margin-right: 10px;
     color: #4ecb71;
     width: 16px;
     height: 16px;
   }
 
-  td span,
-  .table-row3 {
-    color: #ffffff;/
-  }
-
+  /*
+  Styles for the search bar section.
+  */
   .search-bar {
     width: 95%;
     margin: auto;
     padding: 40px 0 40px 0;
   }
 
+  /* Additional styles for the search input */
   .search {
     background: #0f1014;
     border-radius: 15px;
@@ -113,6 +138,9 @@
     color: #bfbfbf;
   }
 
+  /*
+  Styles for the 'competition standings' text.
+  */
   .standings {
     margin-left: 20px;
     color: #bfbfbf;
@@ -121,10 +149,24 @@
     line-height: 26.63px;
   }
 
+  /* Additional styles for the competition table and its contents */
   .competition-table {
     overflow-x: auto;
     width: 95%;
     margin: auto;
+  }
+
+  .competition-table::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .competition-table::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+
+  .competition-table::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
   }
 
   .my-table {
@@ -184,6 +226,9 @@
     border-radius: 50%;
   }
 
+  /*
+  Styles for the pagination section.
+  */
   .pagination {
     width: 90%;
     margin: auto;
@@ -193,6 +238,7 @@
     font-size: 15px;
   }
 
+  /* Additional styles for pagination links */
   .pagination-link {
     display: inline-block;
     padding: 10px 0 10px 0;

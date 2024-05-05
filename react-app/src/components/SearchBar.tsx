@@ -1,3 +1,8 @@
+/**
+ * SearchBar component for searching by username.
+ *
+ * @returns {JSX.Element} A JSX element representing the search bar.
+ */
 function SearchBar() {
   return (
     <div className="search-bar">

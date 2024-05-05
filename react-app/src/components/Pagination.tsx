@@ -1,4 +1,9 @@
-function Pagination() {
+/**
+ * Pagination component that displays a series of links for navigation through a paginated list.
+ *
+ * @returns {JSX.Element} A JSX element representing the pagination links.
+ */
+function Pagination(): JSX.Element {
   return (
     <div className="pagination">
       <div className="pagination-link">

@@ -1,3 +1,7 @@
+/*
+  Styles for the trophy icons and competition texts for each month.
+  These styles position the icons and texts within the layout.
+  */
 .JAN-trophyIcon {
   position: absolute;
   top: 55px;
@@ -7,7 +11,7 @@
 
 .FEB-trophyIcon {
   position: absolute;
-  top: 170px;
+  top: 180px;
   left: 240px;
   font-size: 30px;
   color: white;
@@ -90,6 +94,10 @@
   color: white;
 }
 
+/*
+  Styles for the competition texts for each month.
+  These styles position the texts within the layout.
+  */
 .JAN-comp-text {
   position: absolute;
   top: 150px;

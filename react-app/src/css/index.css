@@ -1,3 +1,8 @@
+/*
+This CSS block targets screens with a minimum width of 768px.
+It sets global styles for all elements on the page, including margin, padding,
+box-sizing, and font-family, ensuring consistent styling across the application.
+*/
 @media only screen and (min-width: 768px) {
   * {
     margin: 0;
@@ -6,6 +11,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  /*
+  The sidebar is styled to be fixed on the left side of the screen.
+  It has a width of 215px and takes up the entire height of the viewport.
+  */
   #sidebar {
     position: fixed;
     z-index: 10;
@@ -17,6 +26,9 @@
     background: #0d0e12;
   }
 
+  /*
+  The logo within the sidebar is styled with padding, border, and font properties.
+  */
   .logo {
     position: relative;
     padding: 20px;
@@ -41,6 +53,23 @@
     line-height: 46px;
   }
 
+  /*
+  The menu icon is hidden by default on larger screens.
+  */
+  .menu-icon {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #008905;
+  }
+
+  /* Additional styles for the sidebar menu and its items */
   .sidebar-menu {
     border-top: 1px solid #ffffff1a;
     padding-top: 30px;
@@ -106,6 +135,9 @@
     color: #ffffff;
   }
 
+  /*
+  Styles for the main content area of the page, including padding and background color.
+  */
   .home-content {
     padding-left: 220px;
     display: flex;
@@ -115,6 +147,7 @@
     padding-bottom: 40px;
   }
 
+  /* Additional styles for cards and icons within the content area */
   .card {
     margin: 0.5rem;
     border: 1px solid #0f1014;
